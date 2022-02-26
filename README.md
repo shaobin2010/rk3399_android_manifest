@@ -16,6 +16,7 @@ repo start <BRANCH_NAME> --all
 ### Compiling u-boot
 ```
 cd <project-name>
+cd u-boot
 make mrproper
 ./make.sh kedge
 ```
