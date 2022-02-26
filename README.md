@@ -43,6 +43,6 @@ make -j8
 ```
 cd <project-name>
 source build/envsetup.sh
-lunch rk3399_all-userdebug
+lunch rk3399_Android10-userdebug
 ./pack_image.sh
 ```
