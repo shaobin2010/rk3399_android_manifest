@@ -5,7 +5,7 @@ android 10.0:
 mkdir -p <WORKING_DIRECTORY>
 cd <WORKING_DIRECTORY>
 
-repo init -u https://github.com/khadas/android_manifest.git -b khadas-edge-Qt
+repo init -u https://github.com/khadas/android_manifest.git -b khadas-edge-Qt-shawn-dev
 repo sync -j4
 
 // create development branches
