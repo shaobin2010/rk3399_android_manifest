@@ -6,6 +6,7 @@ mkdir -p <WORKING_DIRECTORY>
 cd <WORKING_DIRECTORY>
 
 repo init -u https://github.com/shaobin2010/rk3399_android_manifest.git -b khadas-edge-Qt-shawn-dev
+cp  -r .repo/manifests/local_manifests .repo/
 repo sync -j4
 
 // create development branches
